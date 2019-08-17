@@ -21,7 +21,7 @@ To change the contents of an i2c EEPROM, you can use an Arduino and the code pro
 3. Connect the UA-25 to a different USB port or usb charger to supply power to it and wait a few seconds. 
 5. Press CTRL+SHIFT+M in the Arduino editor to load the serial monitor.  This will reset the arduino and run the code.
 
-All being well, the following text will appear in the Arduino Serial Monitor
+All being well, the following text will appear in the Arduino Serial Monitor...
 
    Found VID_582&PID_74 with checksum 0xA785
    Found UA-25 ID with correct checksum, do the coding
