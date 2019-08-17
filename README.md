@@ -1,4 +1,4 @@
-# UA-25 Hardware Modification 
+# UA-25 Hardware Modification for Windows 10
 
 ## **** Use this code at your own risk.  There are checks in the code, but I am not responsible for you bricking your UA-25 ****
 
