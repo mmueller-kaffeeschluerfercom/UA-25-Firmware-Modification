@@ -29,12 +29,12 @@ All being well, the following text will appear in the Arduino Serial Monitor
    Found VID_582&PID_E6 with checksum 0xA7F7
    Found correct ID and Checksum.  Done here.
 
-if you see the following ...
+But if you see the following ...
 
    Found VID_582&PID_E6 with checksum 0xA7F7
    Sorry, did not detect the UA-25 ID and checksum
 
-Then you already had the UA-25 and the code has already done its job. 
+... then you already had the UA-25 and the code has already done its job. 
 
 If you see anything else,  the code wont work. 
 
