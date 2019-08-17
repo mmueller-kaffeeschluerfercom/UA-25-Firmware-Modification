@@ -8,7 +8,7 @@ The UA-25 contains an 8k I2c EEPROM which stores the USB VID/PID and firmware to
 
 Inside the UA-25 is a 4 pin connector that contains the i2c signals, you can connect the arduino analog A4 and A5 pins to this connector as follows, but make sure the UA-25 is unpowered and disconnected from usb for now...
 
-PIN  SIGNAL   ARDUINO PIN 
+PIN  SIGNAL   ARDUINO PIN
 1    x	      N/C
 2    SCL      Analog A5
 3    SDA      Analog A4 
