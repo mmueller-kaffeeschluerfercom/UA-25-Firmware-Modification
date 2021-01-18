@@ -6,7 +6,7 @@ Give your old Roland Edirol UA-25 Audio and Midi interface a bit more life by ma
 
 The UA-25 contains an 8k I2c EEPROM which stores the USB VID/PID and firmware to start the device. By changing this identifier to the same ID that the UA-25EX uses, new versions of windows 10 will recognise the device.
 
-Inside the UA-25 is a 4 pin connector that contains the i2c signals, you can connect the arduino analog A4 and A5 pins to this connector as follows, but make sure the UA-25 is unpowered and disconnected from usb for now...
+Inside the UA-25 is a 4 pin connector labelled CN2 that contains the i2c signals, you can connect the arduino analog A4 and A5 pins to this connector as follows, but make sure the UA-25 is unpowered and disconnected from usb for now...
 
 ```
 PIN  SIGNAL   ARDUINO PIN

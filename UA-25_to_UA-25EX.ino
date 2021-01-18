@@ -1,6 +1,6 @@
 #include<Wire.h>
-#define eeDeviceAddress 0x56
-#define usbIDAddress 0x009B
+#define eeDeviceAddress 0x50 // 24C64 has A2..A0 on ground
+#define usbIDAddress 0x049B // changed to valid address
 #define checksumAddress 0x0A
 
 void writeEEPROM(int i2cDeviceAddress, unsigned int eeAddress, byte i2cData ) 
