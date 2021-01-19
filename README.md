@@ -1,6 +1,8 @@
 # UA-25 Hardware Modification for Windows 10 and MacOs 10.11 - 10.14 Mojave
 
-This is a fork of RemoteFlyer's mod. In my version of UA-25 I needed some changes in I2C addressing and ROM offset for the device ID.
+This is a fork of RemoteFlyer's mod. In my version of UA-25, I needed some changes in I2C addressing and ROM offset for the device ID.
+
+The UA-25 is not USB class complient when in advanced mode. Advanced mode is needed for MIDI IN/OUT, for 24 bit sampling and for higher sample rates. If you just need 16 bit / 44.1 kHz sampling without MIDI, no modification is needed, it works out of the box. But to use the advanced mode, a driver is needed. With Linux (ALSA), the advanced mode works well, but for recent Windows or MacOs versions, there are no drivers, as Roland has stopped the support of UA-25 a long time ago. This mod changes the USB device ID of the UA-25, so that the OS loads the driver for the UA-25EX, which is essentially the same interface with some more analog features (compressor, ground-lift) and had a slightly longer support by Roland. The last available UA-25EX driver for MacOs is for 10.11., but I can confirm it works with 10.14.6 Mojave. The modded UA-25 still works great with Linux/ALSA.
 
 ## **** Use this code at your own risk.  There are checks in the code, but I am not responsible for you bricking your UA-25 ****
 
