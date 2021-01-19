@@ -1,4 +1,6 @@
-# UA-25 Hardware Modification for Windows 10
+# UA-25 Hardware Modification for Windows 10 and MacOs 10.11 - 10.14 Mojave
+
+This is a fork of RemoteFlyer's mod. In my version of UA-25 I needed some changes in I2C addressing and ROM offset for the device ID.
 
 ## **** Use this code at your own risk.  There are checks in the code, but I am not responsible for you bricking your UA-25 ****
 
